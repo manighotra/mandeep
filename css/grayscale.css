@@ -36,7 +36,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -122,7 +122,7 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -279,16 +279,8 @@ a:focus {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 250px;
-    }
-
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
+@media(min-width=767px) {
+	#map {
         height: 400px;
         margin-top: 250px;
     }
